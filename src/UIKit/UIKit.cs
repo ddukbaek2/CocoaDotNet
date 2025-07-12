@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using CGFloat = System.Double;
 using Any = System.Object;
+using CGFloat = System.Double;
 using Selector = System.Delegate;
 
 
@@ -47,12 +45,15 @@ namespace CocoaDotNet
 		public Any sender;
 	}
 
-	public class NSCoder
+	public class UIViewControllerTransitioningDelegate
 	{
-		
 	}
 
-	public class Bundle
+	public class UIViewControllerTransitionCoordinator
+	{ 
+	}
+
+	public class NSCoder
 	{
 		
 	}

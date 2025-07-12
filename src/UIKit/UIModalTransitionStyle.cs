@@ -1,4 +1,4 @@
-﻿namespace CocoaDotNet
+namespace CocoaDotNet.UIKit
 {
 	public enum UIModalTransitionStyle
 	{

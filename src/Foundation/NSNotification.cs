@@ -1,10 +1,16 @@
-﻿using System;
+using System;
 
 
-namespace CocoaDotNet
+namespace CocoaDotNet.Foundation
 {
+	/// <summary>
+	/// 
+	/// </summary>
 	public class NSNotification
 	{
+		/// <summary>
+		/// 
+		/// </summary>
 		public readonly struct Name : IEquatable<Name>
 		{
 			public string rawValue { get; }
@@ -23,10 +29,10 @@ namespace CocoaDotNet
 
 			public override bool Equals(object obj)
 			{
-				if (obj is not Name name)
-					return false;
-				
-				return Equals(name);
+				if (obj is Name name)
+					return Equals(name);
+
+				return false;
 			}
 
 			public override int GetHashCode()
